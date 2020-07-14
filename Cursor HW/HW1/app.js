@@ -50,5 +50,5 @@ const randomDiscount = Math.floor(Math.random() * 100);
 const priceWithDiscount = (priceForAllProducts - (priceForAllProducts * (randomDiscount / 100))).toFixed(2);
 console.log("ціна зі знижкою: " + priceWithDiscount);
 
-const profir = ((229.8775 / 2) - (priceForAllProducts * (randomDiscount / 100))).toFixed(2);
-console.log("чистий прибуток: " + profir); 
+const profit = ((229.8775 / 2) - (priceForAllProducts * (randomDiscount / 100))).toFixed(2);
+console.log("чистий прибуток: " + profit); 
